@@ -23,7 +23,7 @@ const config: Config = {
 				inter: ['var(--font-inter)', 'sans-serif'],
 			},
 			letterSpacing: {
-				'minus06': '-0.012em',
+				'minus06': '-0.006em',
 			},
 		},
 	},
