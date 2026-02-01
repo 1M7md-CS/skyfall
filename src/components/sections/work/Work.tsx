@@ -7,16 +7,16 @@ import Card from "./Card";
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 
+// Layout and load-more config
+const DESKTOP_BREAKPOINT = 768;
+const DESKTOP_INITIAL_CARDS = 10;
+const MOBILE_INITIAL_CARDS = 4;
+const DESKTOP_LOAD_MORE_COUNT = 2;
+const MOBILE_LOAD_MORE_COUNT = 1;
+
 export default function Work() {
     const [isDesktop, setIsDesktop] = useState(false);
     const [visibleCount, setVisibleCount] = useState<number[]>([]);
-
-    // Layout and load-more config
-    const DESKTOP_BREAKPOINT = 1200;
-    const DESKTOP_INITIAL_CARDS = 10;
-    const MOBILE_INITIAL_CARDS = 4;
-    const DESKTOP_LOAD_MORE_COUNT = 2;
-    const MOBILE_LOAD_MORE_COUNT = 1;
 
     // Update layout and initial visible cards when screen resizes
     useEffect(() => {
@@ -31,7 +31,10 @@ export default function Work() {
         };
 
         handleScreenSizeChange(mediaQuery);
+
+        // Listen for screen changes and update layout when screen width crosses the breakpoint
         mediaQuery.addEventListener("change", handleScreenSizeChange);
+
         return () => mediaQuery.removeEventListener("change", handleScreenSizeChange);
     }, []);
 
