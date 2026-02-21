@@ -56,7 +56,7 @@ export default function About() {
 				</h2>
 
 				<div
-					className="order-[#262626] border-t py-10 px-6
+					className="border-[#262626] border-t py-10 px-6
                                lg:py-20 lg:px-10
                                xl:py-[100px] xl:px-[50px]"
 				>
