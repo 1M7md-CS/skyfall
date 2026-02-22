@@ -1,5 +1,5 @@
 import Hero from "@/components/ui/Hero";
-import { Contact, Info } from "../../components/sections/contact";
+import { Contact, Questions } from "../../components/sections/contact";
 
 export default function contactPage() {
 	return (
@@ -9,9 +9,7 @@ export default function contactPage() {
 				description="Get in touch with us today and let us help you with any questions or inquiries you may have."
 			/>
 			<Contact />
-
-			<Hero header="Frequently Asked Questions" />
-			<Info />
+			<Questions />
 		</div>
 	);
 }
