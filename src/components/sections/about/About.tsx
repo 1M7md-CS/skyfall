@@ -3,7 +3,7 @@ export default function About() {
 	return (
 		<div>
 			<section
-				className="border-[#262626] border-b grid grid-cols-1 gap-[30px] px-4 py-10 items-center
+				className="border-foreground border-b grid grid-cols-1 gap-[30px] px-4 py-10 items-center
                            xl:grid-cols-2 lg:gap-[100px] lg:px-[100px] lg:py-[80px]
                            xl:px-[150px] xl:py-[100px]"
 			>
@@ -43,7 +43,7 @@ export default function About() {
 			</section>
 
 			<section
-				className="pt-10 flex flex-col gap-10 border-[#262626]
+				className="pt-10 flex flex-col gap-10 border-foreground
                            lg:pt-20 lg:gap-20
                            xl:pt-[100px] xl:gap-[100px]"
 			>
@@ -56,7 +56,7 @@ export default function About() {
 				</h2>
 
 				<div
-					className="border-[#262626] border-t py-10 px-6
+					className="border-foreground border-t py-10 px-6
                                lg:py-20 lg:px-10
                                xl:py-[100px] xl:px-[50px]"
 				>
@@ -79,10 +79,10 @@ export default function About() {
 			</section>
 
 			<section
-				className="pt-10 relative border-[#262626] border-t
+				className="pt-10 relative border-foreground border-t
                            lg:pt-[100px]"
 			>
-				<div className="border-[#262626] border-b">
+				<div className="border-foreground border-b">
 					<h2
 						className="font-semibold text-[38px] px-6 pb-10 text-[#42159D]
                                	   lg:px-[50px] lg:text-[48px] lg:pb-20
@@ -104,7 +104,7 @@ export default function About() {
 						<h3
 							className="pb-3.5 pl-2.5 font-semibold text-[26px]
                                        lg:pb-[26px] lg:text-[38px]
-                                       border-[#262626] border-b"
+                                       border-foreground border-b"
 						>
 							Ahmad Al Njada
 						</h3>
