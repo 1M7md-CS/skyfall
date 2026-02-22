@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 export default function About() {
 	return (
 		<div>
@@ -8,7 +9,7 @@ export default function About() {
                            xl:px-[150px] xl:py-[100px]"
 			>
 				<p
-					className="text-[16px] tracking-minus06 text-[#E6E6E6] w-full
+					className="text-[16px] tracking-minus06 text-muted-foreground w-full
                                lg:text-xl"
 				>
 					<strong>Skyfall Enterprises </strong>
@@ -48,7 +49,7 @@ export default function About() {
                            xl:pt-[100px] xl:gap-[100px]"
 			>
 				<h2
-					className="font-semibold text-[38px] px-6 text-[#42159D]
+					className="font-semibold text-[38px] px-6 text-primary
                                lg:px-[50px] lg:text-[48px]
                                xl:text-[58px]"
 				>
@@ -61,7 +62,7 @@ export default function About() {
                                xl:py-[100px] xl:px-[50px]"
 				>
 					<p
-						className="font-inter text-[14px] text-[#98989A]
+						className="font-inter text-[14px] text-muted
                                    lg:text-[18px]"
 					>
 						Skyfall Enterprises is a data-driven software development company
@@ -84,7 +85,7 @@ export default function About() {
 			>
 				<div className="border-foreground border-b">
 					<h2
-						className="font-semibold text-[38px] px-6 pb-10 text-[#42159D]
+						className="font-semibold text-[38px] px-6 pb-10 text-primary
                                	   lg:px-[50px] lg:text-[48px] lg:pb-20
                                    xl:text-[58px] xl:pb-[100px]"
 					>
@@ -99,7 +100,7 @@ export default function About() {
 				>
 					<div
 						className="py-10
-									lg:py-[100px]"
+								   lg:py-[100px]"
 					>
 						<h3
 							className="pb-3.5 pl-2.5 font-semibold text-[26px]
@@ -110,7 +111,7 @@ export default function About() {
 						</h3>
 
 						<p
-							className="mt-6 font-inter text-[14px] text-[#98989A]
+							className="mt-6 font-inter text-[14px] text-muted
                                        lg:text-[18px]"
 						>
 							With a bachelors’ in Computer Science, and experience in Business
@@ -130,7 +131,7 @@ export default function About() {
 
 					<div
 						className="w-full flex justify-center
-									xl:justify-end"
+								   xl:justify-end"
 					>
 						<div
 							className="relative w-[360px] h-[480px]
