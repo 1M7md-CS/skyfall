@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "@/components/ui/Button";
 
 type CTAProps = {
@@ -14,7 +15,9 @@ export default function CTA({ header, description, buttonText }: CTAProps) {
 			</h2>
 			<p className="text-muted-foreground max-w-3xl">{description}</p>
 			<div className="w-full mx-auto pt-5 md:pt-10">
-				<Button className="w-fit text-sm md:text-base">{buttonText}</Button>
+				<Link href="/contact">
+					<Button className="w-fit text-sm md:text-base">{buttonText}</Button>
+				</Link>
 			</div>
 		</div>
 	);
