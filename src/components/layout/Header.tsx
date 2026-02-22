@@ -34,7 +34,9 @@ function Navbar() {
 					<NavbarItems currentPage={currentPage} />
 				</ul>
 			</nav>
-			<Button className="hidden md:block">Contact Us</Button>
+			<Link href="/contact">
+				<Button className="hidden md:block">Contact Us</Button>
+			</Link>
 		</>
 	);
 }
