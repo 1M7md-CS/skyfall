@@ -138,7 +138,7 @@ export default function About() {
                             		   xl:w-[631px] xl:h-[841px]"
 						>
 							<Image
-								src="/assets/images/about/CEO.jpg"
+								src="/assets/images/about/ceo.jpg"
 								alt="Ahmad Al Njada, Founder & CEO"
 								fill
 								className="object-cover"
