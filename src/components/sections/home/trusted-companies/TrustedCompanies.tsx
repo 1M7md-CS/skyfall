@@ -25,9 +25,9 @@ export default function TrustedCompanies() {
 				</span>
 			</div>
 
-			<div className="grid w-full grid-cols-2 lg:grid-cols-6 pb-[30px]">
-				{companies.map((company, index) => (
-					<Card key={index} image={company.image} alt={company.alt} />
+			<div className="grid w-full grid-cols-2 lg:grid-cols-6 lg:pb-[30px]">
+				{companies.map((company) => (
+					<Card image={company.image} alt={company.alt} key={company.image} />
 				))}
 			</div>
 		</section>
