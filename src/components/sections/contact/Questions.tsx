@@ -4,9 +4,9 @@ import Hero from "@/components/ui/Hero";
 const faqItems = [
 	{
 		id: 1,
-		question: "What services does SquareUp provide?",
+		question: "What services-overview does SquareUp provide?",
 		answer:
-			"SquareUp offers design, engineering, and project management services. We specialize in UX design, web & mobile development, branding, and custom software.",
+			"SquareUp offers design, engineering, and project management services-overview. We specialize in UX design, web & mobile development, branding, and custom software.",
 	},
 	{
 		id: 2,
@@ -47,7 +47,8 @@ const faqItems = [
 	{
 		id: 8,
 		question: "Can you help with website maintenance?",
-		answer: "Yes, we provide ongoing website and app maintenance services.",
+		answer:
+			"Yes, we provide ongoing website and app maintenance services-overview.",
 	},
 ];
 export default function Questions() {

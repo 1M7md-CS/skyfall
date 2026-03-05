@@ -79,10 +79,7 @@ export default function About() {
 				</div>
 			</section>
 
-			<section
-				className="pt-10 relative border-foreground border-t
-                           lg:pt-[100px]"
-			>
+			<section className="pt-10 relative border-foreground border-t lg:pt-[100px]">
 				<div className="border-foreground border-b">
 					<h2
 						className="font-semibold text-[38px] px-6 pb-10 text-primary
@@ -93,27 +90,13 @@ export default function About() {
 					</h2>
 				</div>
 
-				<div
-					className="items-center grid grid-cols-1 gap-[40px] px-6
-                               md:px-0 md:pl-6
-                               lg:grid-cols-2 lg:pl-[50px]"
-				>
-					<div
-						className="py-10
-								   lg:py-[100px]"
-					>
-						<h3
-							className="pb-3.5 pl-2.5 font-semibold text-[26px]
-                                       lg:pb-[26px] lg:text-[38px]
-                                       border-foreground border-b"
-						>
+				<div className="items-center grid grid-cols-1 gap-[40px] px-6 md:px-0 md:pl-6 lg:grid-cols-2 lg:pl-[50px]">
+					<div className="py-10 lg:py-[100px]">
+						<h3 className="pb-3.5 pl-2.5 font-semibold text-[26px] border-foreground border-b lg:pb-[26px] lg:text-[38px]">
 							Ahmad Al Njada
 						</h3>
 
-						<p
-							className="mt-6 font-inter text-[14px] text-muted
-                                       lg:text-[18px]"
-						>
+						<p className="mt-6 font-inter text-[14px] text-muted lg:text-[18px]">
 							With a bachelors’ in Computer Science, and experience in Business
 							Intelligence. Ahmad Founded Skyfall Enterprises to empower
 							businesses and implement software needs through data-driven
@@ -129,14 +112,11 @@ export default function About() {
 						</p>
 					</div>
 
-					<div
-						className="w-full flex justify-center
-								   xl:justify-end"
-					>
+					<div className="w-full flex justify-center xl:justify-end">
 						<div
 							className="relative w-[360px] h-[480px]
-                            		   lg:w-[514px] lg:h-[685px]
-                            		   xl:w-[631px] xl:h-[841px]"
+                            		    lg:w-[514px] lg:h-[685px]
+                            		    xl:w-[631px] xl:h-[841px]"
 						>
 							<Image
 								src="/assets/images/about/ceo.jpg"

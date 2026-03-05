@@ -46,23 +46,14 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
                                             justify-center rounded-[6px] bg-gradient-to-t
                                             from-[#242424] to-[#2E2E2E]
                                              lg:w-14 lg:h-14 lg:p-8
-                                             xl:w-16 xl:h-16 xl:p-9
-                                            "
+                                             xl:w-16 xl:h-16 xl:p-9"
 							>
-								<span
-									className="text-[20px] font-semibold
-                                                 lg:text-2xl
-                                                 xl:text-[28px]"
-								>
+								<span className="text-[20px] font-semibold lg:text-2xl xl:text-[28px]">
 									{String(item.id).padStart(2, "0")}
 								</span>
 							</div>
 
-							<p
-								className="font-medium text-[16px]
-                                          lg:text-lg
-                                          xl:text-[22px]"
-							>
+							<p className="font-medium text-[16px] lg:text-lg xl:text-[22px]">
 								{item.question}
 							</p>
 						</div>
@@ -71,15 +62,10 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
 					</button>
 
 					<div
-						className={`transition-all duration-500 ease-in-out overflow-hidden ${
-							isOpen ? "max-h-100 mt-6 opacity-100" : "max-h-0 opacity-0"
-						}`}
+						className={`transition-all duration-500 ease-in-out overflow-hidden 
+						 	        ${isOpen ? "max-h-100 mt-6 opacity-100" : "max-h-0 opacity-0"}`}
 					>
-						<p
-							className="text-muted-foreground text-sm
-                                      lg:text-[16px]
-                                      xl:text-lg"
-						>
+						<p className="text-muted-foreground text-sm lg:text-[16px] xl:text-lg">
 							{item.answer}
 						</p>
 					</div>
@@ -95,10 +81,7 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
 					className="grid grid-cols-1 border-t border-foreground
                                 lg:grid-cols-2"
 				>
-					<div
-						className="flex flex-col border-foreground
-                                    lg:border-r"
-					>
+					<div className="flex flex-col border-foreground lg:border-r">
 						{leftColumn.map((item, index) => RenderItem(item, index >= 4))}
 					</div>
 

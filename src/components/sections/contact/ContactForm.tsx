@@ -42,14 +42,9 @@ export function ContactForm() {
 		<div className="flex justify-center items-center px-6">
 			<form
 				onSubmit={handleSubmit}
-				className="w-full max-w-5xl flex flex-col gap-[30px] border-foreground border-x p-6
-                           lg:p-[60px]
-                           xl:p-20 xl:gap-10"
+				className="w-full max-w-5xl flex flex-col gap-[30px] border-foreground border-x p-6 lg:p-[60px] xl:p-20 xl:gap-10"
 			>
-				<div
-					className="grid grid-cols-1 gap-[30px]
-                                lg:grid-cols-2"
-				>
+				<div className="grid grid-cols-1 gap-[30px] lg:grid-cols-2">
 					<FormInput
 						label="Full Name"
 						name="fullName"
@@ -70,18 +65,11 @@ export function ContactForm() {
 					className="rounded-lg border-foreground border p-[30px] flex flex-col gap-[30px] bg-foreground
                                 xl:p-10 xl:gap-10 xl:rounded-xl"
 				>
-					<p
-						className="font-medium text-[13px]
-                                  lg:text-[18px]
-                                  xl:text-[22px]"
-					>
+					<p className="font-medium text-[13px] lg:text-[18px] xl:text-[22px]">
 						Why are you contacting us?
 					</p>
 
-					<div
-						className="grid gap-[30px]
-                                    lg:grid lg:grid-cols-2"
-					>
+					<div className="grid gap-[30px] lg:grid lg:grid-cols-2">
 						<ServiceCheckbox
 							name="webDesign"
 							label="Web Design"
@@ -119,9 +107,7 @@ export function ContactForm() {
 				>
 					<label
 						htmlFor="message"
-						className="font-medium text-[16px]
-                                      lg:text-lg
-                                      xl:text-[22px]"
+						className="font-medium text-[16px] lg:text-lg xl:text-[22px]"
 					>
 						Your Message
 					</label>
@@ -135,8 +121,8 @@ export function ContactForm() {
 							rows={2}
 							required
 							className="bg-transparent placeholder-muted focus:outline-none
-                                           resize-none w-full pb-1 border-b border-foreground-border
-                                           focus:border-primary transition-colors"
+                                       resize-none w-full pb-1 border-b border-foreground-border
+                                       focus:border-primary transition-colors"
 						/>
 					</div>
 				</div>

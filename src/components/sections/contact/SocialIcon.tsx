@@ -18,10 +18,7 @@ export default function SocialIcon({
 }: SocialIconProps) {
 	return (
 		<Link href={href} target="_blank" className="inline-block">
-			<div
-				className="bg-gradient-to-t from-[#242424] to-foreground-border h-fit w-fit p-4 rounded-[6px]
-                        xl:p-5"
-			>
+			<div className="bg-gradient-to-t from-[#242424] to-foreground-border h-fit w-fit p-4 rounded-[6px] xl:p-5">
 				<Image
 					src={`/assets/svgs/${icon}.svg`}
 					alt={alt}

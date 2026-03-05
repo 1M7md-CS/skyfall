@@ -15,10 +15,7 @@ export default function ServiceCheckbox({
 	onChange,
 }: ServiceCheckboxProps) {
 	return (
-		<label
-			className="flex items-center gap-2.5 text-[15px] cursor-pointer w-fit
-                          xl:text-lg"
-		>
+		<label className="flex items-center gap-2.5 text-[15px] cursor-pointer w-fit xl:text-lg">
 			<input
 				type="checkbox"
 				name={name}
