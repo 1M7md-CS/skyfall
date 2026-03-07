@@ -29,7 +29,7 @@ export default function SubCard({ image, title, description }: SubCardProps) {
 					<h4 className="font-medium text-[16px] xl:text-[18px] truncate">
 						{title}
 					</h4>
-					<p className="text-[12px] xl:text-[18px] text-muted-foreground truncate">
+					<p className="text-[12px] xl:text-[13px] 2xl:text-[16px] text-muted-foreground truncate">
 						{description}
 					</p>
 				</div>
@@ -39,10 +39,9 @@ export default function SubCard({ image, title, description }: SubCardProps) {
 				href="/contact"
 				aria-label={`Open website for ${title}`}
 				className="hidden
-                           lg:block lg:bg-foreground lg:py-[14px] lg:px-[16px] lg:rounded-[6px] lg:self-center
-                           xl:py-[18px] xl:px-[20px]"
+                           xl:block lg:bg-foreground lg:p-[14px] lg:rounded-[6px] lg:self-center 2xl:py-[18px] 2xl:px-[20px]"
 			>
-				<span className="font-medium text-[14px] xl:text-[18px] hover:underline">
+				<span className="font-medium text-[14px] 2xl:text-[16px] truncate hover:underline">
 					Open Website
 				</span>
 			</Link>
